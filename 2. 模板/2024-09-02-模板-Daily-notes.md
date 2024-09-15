@@ -1,3 +1,5 @@
+💩💩💩 #模板 💩💩💩 #记录/日记
+
 ## 计划
 
 - 上班时间认真工作，做好笔记和记录，争取多学点东西
@@ -12,6 +14,8 @@
         - 读书笔记: 要有观点，带案例，说对现实的启发
         - 生活评论: 要有观点，分享启发和感悟
 
+<button class="sparkles">Pika pika pikachu !</button>
+
 ## 日记
 
 - 今天做了什么 ?
@@ -25,4 +29,15 @@
 
 ## Resource
 
-- 模板 Template: [2024-06-15-日记模板]
+- Link (option)
+- Files (option)
+- Glossary (option)
+- Archive (option)
+- Relevant notes (option)
+- Relevant query (option)
+
+## History
+
+- {{date: YYYY.MM.DD}}, created by [xiaoka](https://www.xiaokaup.com/): first version
+- Template: [[2024-09-02-模板-Daily-notes]]
+- Reference: [[What is the general format for citing articles?]]
