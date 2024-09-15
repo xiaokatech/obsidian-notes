@@ -1,5 +1,6 @@
 [
   "obsidian-git",
   "obsidian-plugin-prettier",
-  "obsidian-version-history-diff"
+  "obsidian-version-history-diff",
+  "obsidian-editor-shortcuts"
 ]
