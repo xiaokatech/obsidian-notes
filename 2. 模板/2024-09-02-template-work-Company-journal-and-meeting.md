@@ -4,7 +4,7 @@ cssclasses:
   - clean-embed-all
 ---
 
-💩💩💩 #模版 💩💩💩 #工作/公司 #公司/Emeria
+💩💩💩 #模版 💩💩💩 #工作/公司
 
 ## Meeting
 
@@ -37,5 +37,5 @@ Next
 ## History
 
 - {{date: YYYY.MM.DD}}, created by [xiaoka](https://www.xiaokaup.com/): first version
-- Template: [[2024-09-02-template-work-Emeria-journal-and-meeting]]
+- Template: [[2024-09-02-template-work-Company-journal-and-meeting]]
 - Reference: [[What is the general format for citing articles?]]
