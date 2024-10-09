@@ -13,3 +13,7 @@ Among the types of content I record, there are three main categories that are mo
 **Task notes** are records of each task, and the note structure consists of various recording methods and structures depending on the task. However, elements such as background (context), resources, and history will certainly be included. [[2024-09-02-template-Obsidian-action-add History]]
 
 **Card notes**: I have only recently started taking card notes. In the past, I used to record card notes with different structures. However, recently, in combination with AI tools, I have designed a relatively stable note structure standard. It allows me to create new card notes quickly, which I will discuss later.
+
+## 工具
+
+![[2024-10-09-工具#工具]]
