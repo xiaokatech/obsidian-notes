@@ -1,2 +1,0 @@
-- Folder name: 1.2a project
-- index folder for projects

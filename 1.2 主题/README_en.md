@@ -1,2 +1,0 @@
-- Folder name: 1.2 subject
-- index folder for subjects
