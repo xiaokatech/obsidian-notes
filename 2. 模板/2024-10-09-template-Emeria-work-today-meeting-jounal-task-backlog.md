@@ -14,16 +14,16 @@ cssclasses:
 
 ## Journal
 
-### Plan
-
-### Work
+### Work 💩💩💩(last day)💩💩💩
 
 - Done
 - Doing
-
-Next
+- Doc
+- Next
 
 ### Backlog
+
+### Issues
 
 ## Resource
 
@@ -37,5 +37,5 @@ Next
 ## History
 
 - {{date: YYYY.MM.DD}}, created by [xiaoka](https://www.xiaokaup.com/): first version
-- Template: [[2024-09-02-template-work-Company-journal-and-meeting]]
+- Template: [[2024-10-09-template-Emeria-work-today-meeting-jounal-task-backlog]]
 - Reference: [[What is the general format for citing articles?]]
