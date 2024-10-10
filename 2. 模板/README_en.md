@@ -15,3 +15,4 @@ Templates correspond to the types of note content mentioned earlier, and there a
 
 [[2024-09-10-模板-card-<subject>]] for Card notes
 
+![[2024-10-09-Glossary note#Glossary]]

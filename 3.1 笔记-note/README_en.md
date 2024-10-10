@@ -17,3 +17,5 @@
 ## 工具
 
 ![[2024-10-09-工具#Tools]]
+
+![[2024-10-09-Glossary note#Glossary]]

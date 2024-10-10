@@ -11,3 +11,5 @@ Subject: the directory consisting of recently focused topics.
 Category: the directory of completed topics or storage for a large number of old work notes.
 
 ![[2024-09-16-gif-39-项目-GPT AI Flow-emeria-category-note.gif]]
+
+![[2024-10-09-Glossary note#Glossary]]

@@ -17,3 +17,5 @@ Among the types of content I record, there are three main categories that are mo
 ## 工具
 
 ![[2024-10-09-工具#工具]]
+
+![[2024-10-09-Glossary note#Glossary]]

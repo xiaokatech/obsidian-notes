@@ -14,3 +14,5 @@
 [[2024-09-02-template-Obsidian-action-add History]] --> 通用模板
 
 [[2024-09-10-模板-card-<subject>]] --> 卡片笔记模板
+
+![[2024-10-09-Glossary note#Glossary]]
