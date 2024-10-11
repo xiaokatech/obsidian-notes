@@ -69,5 +69,6 @@
       ],
       "key": "ArrowDown"
     }
-  ]
+  ],
+  "editor:delete-paragraph": []
 }
