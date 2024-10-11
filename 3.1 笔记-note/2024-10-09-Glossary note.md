@@ -1,7 +1,12 @@
 ## Glossary
 
+- 索引: index
 - 模板: template
 - 个人知识管理: Personal Knowledge Management
+- 主题: subject
+- 工作: work
+- 分类: category
+- 项目: project
 
 ## History
 
