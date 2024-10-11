@@ -1,0 +1,78 @@
+/*
+    clean-embed.css snippet
+
+    Removes title, link, padding, margins from embeds,
+    so they really look like the same note.
+
+    To be used with `cssclass: clean-embed` in YAML frontmatter.
+
+    2024-06-25 Xiaokaup (xiaokaup.com)
+*/
+
+
+/* === value: clean-embed @DEPRECATED - start === */
+.clean-embed .internal-embed h2 { /* @DEPRECATED */
+    display: none;
+}
+.clean-embed .internal-embed .embed-title { /* @DEPRECATED */
+    display: none;
+}
+.clean-embed .internal-embed ul { /* @DEPRECATED */
+    margin: 0;
+}
+/* === value: clean-embed @DEPRECATED - end === */
+
+/* value: clean-embed-h2 */
+.clean-embed-h2 .internal-embed h2 {
+    display: none;
+}
+.clean-embed-h2 .internal-embed .embed-title {
+    display: none;
+}
+.clean-embed-h2 .internal-embed ul {
+    margin: 0;
+}
+
+/* value: clean-embed-h3 */
+.clean-embed-h3 .internal-embed h3 {
+    display: none;
+}
+.clean-embed-h3 .internal-embed .embed-title {
+    display: none;
+}
+.clean-embed-h3 .internal-embed ul {
+    margin: 0;
+}
+
+/* value: clean-embed-h4 */
+.clean-embed-h4 .internal-embed h4 {
+    display: none;
+}
+.clean-embed-h4 .internal-embed .embed-title {
+    display: none;
+}
+.clean-embed-h4 .internal-embed ul {
+    margin: 0;
+}
+
+/* value: clean-embed-all */
+.clean-embed-all .internal-embed h2,
+.clean-embed-all .internal-embed h3,
+.clean-embed-all .internal-embed h4,
+.clean-embed-all .internal-embed h5 {
+    display: none;
+}
+.clean-embed-all .internal-embed .embed-title {
+    display: none;
+}
+.clean-embed-all .internal-embed ul {
+    margin: 0;
+}
+
+/* value: clean-embed-ui */
+.clean-embed-ui .internal-embed .embed-title {
+    display: none;
+}
+.clean-embed-ui .internal-embed ul {
+    margin: 0;
+}

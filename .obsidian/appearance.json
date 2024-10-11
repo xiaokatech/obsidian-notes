@@ -1,1 +1,6 @@
-{}
+{
+  "enabledCssSnippets": [
+    "2024-08-26-clean-embed",
+    "2024-10-02-mermaid-preview"
+  ]
+}

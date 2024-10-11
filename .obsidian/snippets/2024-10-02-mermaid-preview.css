@@ -1,0 +1,14 @@
+/* https://forum.obsidian.md/t/resize-and-align-mermaid-diagrams/7019/18 */
+.mermaid svg { 
+    max-width: 100%; 
+    height: auto;
+}
+
+/* special considerations for printing (PDF export) */
+/* @NOTWORK */
+/* @media print {
+    .mermaid svg { 
+        max-width: 100%; 
+        height: auto;
+    }
+  } */
