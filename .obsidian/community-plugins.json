@@ -2,5 +2,6 @@
   "obsidian-git",
   "obsidian-plugin-prettier",
   "obsidian-version-history-diff",
-  "obsidian-editor-shortcuts"
+  "obsidian-editor-shortcuts",
+  "no-dupe-leaves"
 ]
