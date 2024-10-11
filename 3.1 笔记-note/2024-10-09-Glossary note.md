@@ -1,6 +1,7 @@
 ## Glossary
 
 - 模板: template
+- 个人知识管理: Personal Knowledge Management
 
 ## History
 
