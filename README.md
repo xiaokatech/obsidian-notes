@@ -17,7 +17,7 @@
 
 你可以使用 iCloud、Google Drive 或 Microsoft OneDrive 在你的设备之间同步笔记。
 
-> [!NOTE] 使用 GitHub 同步
+> 使用 GitHub 同步
 > 如果你想与 GitHub 同步，请确保你已经安装了 Git 并为你的 GitHub 账户生成了 SSH 密钥。
 
 ## 技术人员
@@ -42,4 +42,4 @@ git clone <ssh_github_link>
 
 ![2024-10-11-img-5-how to use this notes repo?-commit-and-sync-with-Git.png](./4.1%20附件/2024-10-11-img-5-how-to-use-this-notes-repo%3F-commit-and-sync-with-Git.png)
 
-在编写你的第一个笔记之前,请先阅读 [[2024-10-09-笔记管理-如何管理工作笔记？]]。
+在编写你的第一个笔记之前,请先阅读 [2024-10-09-笔记管理-如何管理工作笔记？](./2024-10-09-笔记管理-如何管理工作笔记？.md)。

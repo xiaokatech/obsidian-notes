@@ -17,7 +17,7 @@ Unzip then open your notes repo by Obsidian.
 
 You can use iCloud, Google Drive or Microsoft oneDrive to sync your notes among your devices.
 
-> [!NOTE] Sync with GitHub
+> Sync with GitHub
 > If you want to sync with GitHub, please ensure you have install Git and generate SSH key for your GitHub account.
 > See the instruction with GitHub below.
 
@@ -43,4 +43,4 @@ You can save your notes on GitHub directly, try to use the command(`Cmd + p` to 
 
 ![2024-10-11-img-5-how to use this notes repo?-commit-and-sync-with-Git.png](./4.1%20附件/2024-10-11-img-5-how-to-use-this-notes-repo%3F-commit-and-sync-with-Git.png)
 
-Please read [[2024-10-09-Note management-How to manage work notes ?]] first before write your first note.
+Please read [2024-10-09-Note management-How to manage work notes ?](./2024-10-09-Note%20management-How%20to%20manage%20work%20notes%20%3F.md) first before write your first note.
