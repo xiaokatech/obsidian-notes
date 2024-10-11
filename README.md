@@ -19,7 +19,7 @@
 
 你可以使用 iCloud、Google Drive 或 Microsoft OneDrive 在你的设备之间同步笔记。
 
-> 使用 GitHub 同步
+> 使用 GitHub 同步  
 > 如果你想与 GitHub 同步，请确保你已经安装了 Git 并为你的 GitHub 账户生成了 SSH 密钥。
 
 ## 技术人员

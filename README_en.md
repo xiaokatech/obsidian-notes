@@ -19,7 +19,7 @@ Unzip then open your notes repo by Obsidian.
 
 You can use iCloud, Google Drive or Microsoft oneDrive to sync your notes among your devices.
 
-> Sync with GitHub
+> Sync with GitHub  
 > If you want to sync with GitHub, please ensure you have install Git and generate SSH key for your GitHub account.
 > See the instruction with GitHub below.
 
