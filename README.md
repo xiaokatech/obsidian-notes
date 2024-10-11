@@ -1,9 +1,9 @@
+# 如何使用该笔记库？
+
 <p align="center">
   <a href="./README.md">简体中文</a> |
   <a href="./README_en.md">English</a>
 </p>
-
-# 如何使用该笔记库？
 
 ## 非技术人员
 
