@@ -13,7 +13,7 @@
 
 解压缩，然后用 Obsidian 打开你的笔记仓库。
 
-![[2024-10-11-img-4-how-to-use-this-notes-repo?-open your notes repo.png]]
+![[2024-10-11-img-4-how-to-use-this-notes-repo?-open-your-notes-repo.png]]
 
 你可以使用 iCloud、Google Drive 或 Microsoft OneDrive 在你的设备之间同步笔记。
 
@@ -36,7 +36,7 @@ git clone <ssh_github_link>
 
 然后用 Obsidian 打开你的笔记仓库。
 
-![[2024-10-11-img-4-how-to-use-this-notes-repo?-open your notes repo.png]]
+![[2024-10-11-img-4-how-to-use-this-notes-repo?-open-your-notes-repo.png]]
 
 你可以直接在 GitHub 上保存你的笔记,试试在 Obsidian 中使用命令(使用 `Cmd + p` 打开命令面板)。
 
