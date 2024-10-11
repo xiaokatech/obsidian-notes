@@ -13,7 +13,7 @@ Download notes library.
 
 Unzip then open your notes repo by Obsidian.
 
-![[2024-10-11-img-4-how to use this notes repo?-open your notes repo.png]]
+![[2024-10-11-img-4-how-to-use-this-notes-repo?-open your notes repo.png]]
 
 You can use iCloud, Google Drive or Microsoft oneDrive to sync your notes among your devices.
 
@@ -25,11 +25,11 @@ You can use iCloud, Google Drive or Microsoft oneDrive to sync your notes among 
 
 Fork the notes repository to your GitHub account.
 
-![[2024-10-11-img-1-how to use this notes repo?-repo.png]]
+![[2024-10-11-img-1-how-to-use-this-notes-repo?-repo.png]]
 
-![[2024-10-11-img-2-how to use this notes repo?-fork.png]]
+![[2024-10-11-img-2-how-to-use-this-notes-repo?-fork.png]]
 
-![[2024-10-11-img-3-how to use this notes repo?-clone you own notes repo.png]]
+![[2024-10-11-img-3-how-to-use-this-notes-repo?-clone you own notes repo.png]]
 
 ```bash
 git clone <ssh_github_link>
@@ -37,10 +37,10 @@ git clone <ssh_github_link>
 
 Then open your notes repo by Obsidian.
 
-![[2024-10-11-img-4-how to use this notes repo?-open your notes repo.png]]
+![[2024-10-11-img-4-how-to-use-this-notes-repo?-open your notes repo.png]]
 
 You can save your notes on GitHub directly, try to use the command(`Cmd + p` to open Command palette) in Obsidian.
 
-![[2024-10-11-img-5-how to use this notes repo?-commit-and-sync-with-Git.png]]
+![[2024-10-11-img-5-how-to-use-this-notes-repo?-commit-and-sync-with-Git.png]]
 
 Please read [[2024-10-09-Note management-How to manage work notes ?]] first before write your first note.
