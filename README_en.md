@@ -9,7 +9,7 @@
 
 Download notes library.
 
-![[2024-10-11-img-6-how to use this notes repo?-download-notes-repo-as-zip.png]]
+![2024-10-11-img-6-how to use this notes repo?-download-notes-repo-as-zip.png](./4.14.1%20附件附件/2024-10-11-img-6-how to use this notes repo?-download-notes-repo-as-zip.png)
 
 Unzip then open your notes repo by Obsidian.
 

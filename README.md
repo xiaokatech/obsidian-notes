@@ -9,7 +9,7 @@
 
 下载笔记库。
 
-![[2024-10-11-img-6-how to use this notes repo?-download-notes-repo-as-zip.png]]
+![[2024-10-11-img-6-how-to-use-this-notes-repo?-download-notes-repo-as-zip.png]]
 
 解压缩，然后用 Obsidian 打开你的笔记仓库。
 
