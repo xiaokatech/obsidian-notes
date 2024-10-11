@@ -1,4 +1,9 @@
-# # How to use this notes library?
+<p align="center">
+  <a href="./README.md">简体中文</a> |
+  <a href="./README_en.md">English</a>
+</p>
+
+# How to use this notes library?
 
 ## Non-technical personnel
 
