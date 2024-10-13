@@ -1,3 +1,8 @@
+<p align="center">
+  <a href="./2024-10-09-笔记管理-如何管理工作笔记？.md">简体中文</a> |
+  <a href="./2024-10-09-Note%20management-How%20to%20manage%20work%20notes%20%3F.md">English</a>
+</p>
+
 > [!NOTE] Glossary Issue
 > There are some Chinese characters in the article. If you want to understand them, you can scroll to the Glossary at the end for more information.
 
