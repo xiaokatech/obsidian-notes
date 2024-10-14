@@ -7,6 +7,16 @@
 
 ## 非技术人员
 
+```mermaid
+---
+title: 非技术人员
+---
+flowchart TB
+open-notes-repo-by-obsidian[用 Obsidian 打开笔记库]
+
+下载笔记库 --> 解压 --> open-notes-repo-by-obsidian
+```
+
 下载笔记库。
 
 ![[2024-10-11-img-6-how-to-use-this-notes-repo?-download-notes-repo-as-zip.png]]
@@ -23,6 +33,24 @@
 > 如果你想与 GitHub 同步，请确保你已经安装了 Git 并为你的 GitHub 账户生成了 SSH 密钥。
 
 ## 技术人员
+
+```mermaid
+---
+title: 技术人员
+---
+flowchart TB
+download-git[下载 Git]
+generate-ssh[生成 ssh key]
+register-github[注册 GitHub]
+config-ssh[设置 ssh 到 GitHub 账号]
+fork-notes-repo[Fork 笔记库]
+clone-notes-repo[克隆笔记库到自己电脑]
+open-notes-repo-by-obsidian[用 Obsidian 打开笔记库]
+sync-by-git[使用 git 同步笔记]
+
+register-github & generate-ssh --> config-ssh --> fork-notes-repo --> clone-notes-repo
+download-git --> clone-notes-repo --> open-notes-repo-by-obsidian --> 写笔记 --> sync-by-git --> 获取最新的笔记库修改
+```
 
 Fork 笔记库到你的 GitHub 账户。
 
