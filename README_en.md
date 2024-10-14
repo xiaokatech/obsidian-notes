@@ -7,6 +7,17 @@
 
 ## Non-technical personnel
 
+```mermaid
+---
+title: Non-technical personnel
+---
+flowchart TB
+open-notes-repo-by-obsidian[Open notes repository with Obsidian]
+download-notes-repository[Download notes repository]
+ 
+download-notes-repository --> Unzip --> open-notes-repo-by-obsidian
+```
+
 Download notes library.
 
 ![[2024-10-11-img-6-how-to-use-this-notes-repo?-download-notes-repo-as-zip.png]]
@@ -24,6 +35,26 @@ You can use iCloud, Google Drive or Microsoft oneDrive to sync your notes among 
 > See the instruction with GitHub below.
 
 ## Technical personnel
+
+```mermaid
+---
+title: Technical personnel
+---
+flowchart TB
+download-git[Download Git]
+generate-ssh[Generate ssh key]
+register-github[Register GitHub account]
+config-ssh[Configure ssh for GitHub account]
+fork-notes-repo[Fork notes repository]
+clone-notes-repo[Clone notes repository to local computer]
+open-notes-repo-by-obsidian[Open notes repository with Obsidian]
+write-notes[Write notes]
+sync-by-git[Sync notes using git]
+get-latest-repository-changes[Get latest repository changes]
+
+register-github & generate-ssh --> config-ssh --> fork-notes-repo --> clone-notes-repo
+download-git --> clone-notes-repo --> open-notes-repo-by-obsidian --> write-notes --> sync-by-git --> get-latest-repository-changes
+```
 
 Fork the notes repository to your GitHub account.
 
