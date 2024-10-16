@@ -1,3 +1,5 @@
+I want to help the open-source note repository: https://forms.gle/TeQUktn7GB3wyg6D6
+
 # How to use this notes library?
 
 <p align="center">
@@ -14,7 +16,7 @@ title: Non-technical personnel
 flowchart TB
 open-notes-repo-by-obsidian[Open notes repository with Obsidian]
 download-notes-repository[Download notes repository]
- 
+
 download-notes-repository --> Unzip --> open-notes-repo-by-obsidian
 ```
 
