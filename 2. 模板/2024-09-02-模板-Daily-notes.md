@@ -2,28 +2,18 @@
 
 ## 计划
 
-- 上班时间认真工作，做好笔记和记录，争取多学点东西
-- 之后开始做项目或者做 up 主的事情
-    - GPT AI Flow
-    - 小卡大脑洞
-- 思考和写作的锻炼 @TODO
-    - 坚持每天写 800 字
-    - 议论文 总分总模式 (结构化思维)
-    - 主题建议
-        - 工作复盘: 说出过程、提出问题、改进方法
-        - 读书笔记: 要有观点，带案例，说对现实的启发
-        - 生活评论: 要有观点，分享启发和感悟
+planing...
 
 <button class="sparkles">Pika pika pikachu !</button>
 
-## 日记
+## 日记 Diary
 
-- 今天做了什么 ?
-- 做的怎么样 ?
-- 有什么问题 ?
-- 有更好的方式吗 ?
-- 明天准备怎么做 ?
-- 另外，有什么有趣的事情吗 ? 印象深刻的事情呢？
+- 今天做了什么 ?What did you do today?
+- 做的怎么样 ? How did it go?
+- 有什么问题 ?Were there any issues?
+- 有更好的方式吗 ?Is there a better way?
+- 明天准备怎么做 ?What's the plan for tomorrow?
+- 另外，有什么有趣的事情吗 ? 印象深刻的事情呢？Also, was there anything interesting? Anything particularly memorable?
 
 ### <主题>
 
@@ -32,6 +22,7 @@
 - Link (option)
 - Files (option)
 - Glossary (option)
+    - [[2024-10-09-Glossary note]]
 - Archive (option)
 - Relevant notes (option)
 - Relevant query (option)

@@ -31,6 +31,7 @@ cssclasses:
 - Relevant notes (option)
 - Relevant query (option, query code block)
 - Glossary (option)
+    - [[2024-10-09-Glossary note]]
 - Files (option)
 - Archive (option)
 

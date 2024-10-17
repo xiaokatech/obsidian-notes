@@ -7,6 +7,7 @@
 - 工作: work
 - 分类: category
 - 项目: project
+- 日记: Diary
 
 ## History
 

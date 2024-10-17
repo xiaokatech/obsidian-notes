@@ -1,0 +1,10 @@
+{
+	"id": "obsidian-party",
+	"name": "Party🎉",
+	"version": "2.1.0",
+	"minAppVersion": "0.12.0",
+	"description": "An implementation of party.js for Obsidian. Create confetti, sparkles and even custom effects in your notes!",
+	"author": "Shap Po",
+	"authorUrl": "https://github.com/shap-po/",
+	"isDesktopOnly": false
+}
