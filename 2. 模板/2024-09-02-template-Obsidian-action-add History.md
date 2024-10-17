@@ -6,6 +6,7 @@
 
 - Link (option)
 - Glossary (option)
+    - [[2024-10-09-Glossary note]]
 - Relevant query (option)
 
 ## History
