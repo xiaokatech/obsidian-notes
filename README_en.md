@@ -1,4 +1,4 @@
-I want to help the open-source note repository: https://forms.gle/TeQUktn7GB3wyg6D6
+I want to contribute the open-source note repository: https://forms.gle/TeQUktn7GB3wyg6D6
 
 # How to use this notes library?
 
