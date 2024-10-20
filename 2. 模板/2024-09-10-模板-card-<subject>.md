@@ -1,10 +1,4 @@
----
-category: 索引/模板
-docType: 
-source:
----
-
-💩💩💩 #模板 💩💩💩 #分类/卡片
+💩💩💩 #模板 💩💩💩 #卡片
 
 ## Context
 
