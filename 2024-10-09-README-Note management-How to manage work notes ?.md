@@ -1,6 +1,6 @@
 <p align="center">
-  <a href="https://github.com/xiaokatech/obsidian-notes/blob/master/2024-10-09-%E7%AC%94%E8%AE%B0%E7%AE%A1%E7%90%86-%E5%A6%82%E4%BD%95%E7%AE%A1%E7%90%86%E5%B7%A5%E4%BD%9C%E7%AC%94%E8%AE%B0%EF%BC%9F.md">简体中文</a> |
-  <a href="https://github.com/xiaokatech/obsidian-notes/blob/master/2024-10-09-Note%20management-How%20to%20manage%20work%20notes%20%3F.md">English</a>
+  <a href="https://github.com/xiaokatech/obsidian-notes/blob/master/2024-10-09-README-%E7%AC%94%E8%AE%B0%E7%AE%A1%E7%90%86-%E5%A6%82%E4%BD%95%E7%AE%A1%E7%90%86%E5%B7%A5%E4%BD%9C%E7%AC%94%E8%AE%B0%EF%BC%9F.md">简体中文</a> |
+  <a href="https://github.com/xiaokatech/obsidian-notes/blob/master/2024-10-09-README-Note%20management-How%20to%20manage%20work%20notes%20%3F.md">English</a>
 </p>
 
 > [!NOTE] Glossary Issue
@@ -107,8 +107,8 @@ Another advantage is that colleagues can provide clear feedback directly based o
 
 - Link (option)
 - Relevant notes (option)
-    - [[2024-10-09-笔记管理-如何管理工作笔记？]]
-- Glossary (option): [[2024-10-09-Glossary note]]
+    - [[2024-10-09-README-笔记管理-如何管理工作笔记？]]
+- Glossary (option): [[2024-10-09-README-Glossary note]]
 - Relevant query (option)
 
 ## History

@@ -1,14 +1,4 @@
----
-category: 索引/卡片
-tags:
-  - 卡片
-  - 技术
-  - 技术/Terraform
-source: 
-docType: 知识
-updateAt: 2024-09-09 16:16
-createAt: 2024-09-09 16:16
----
+#Card #Tech #Tech/Terraform
 
 ## Context
 

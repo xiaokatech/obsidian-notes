@@ -1,3 +1,5 @@
+#README
+
 我想为开源笔记仓库做出贡献: https://wj.qq.com/s2/15685054/9a73/
 
 # 如何使用该笔记库？
@@ -79,4 +81,4 @@ git clone <ssh_github_link>
 ![[2024-10-11-img-5-how-to-use-this-notes-repo?-commit-and-sync-with-Git.png]]
 ![2024-10-11-img-5-how to use this notes repo?-commit-and-sync-with-Git.png](./4.1%20附件/2024-10-11-img-5-how-to-use-this-notes-repo%3F-commit-and-sync-with-Git.png)
 
-在编写你的第一个笔记之前,请先阅读 [[2024-10-09-笔记管理-如何管理工作笔记？]] [link (请使用 Obsidian 查看该链接)](./2024-10-09-笔记管理-如何管理工作笔记？.md)。
+在编写你的第一个笔记之前,请先阅读 [[2024-10-09-README-笔记管理-如何管理工作笔记？]] [link (请使用 Obsidian 查看该链接)](2024-10-09-README-笔记管理-如何管理工作笔记？.md)。

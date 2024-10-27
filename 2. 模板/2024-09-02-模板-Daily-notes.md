@@ -22,13 +22,13 @@ planing...
 - Link (option)
 - Files (option)
 - Glossary (option)
-    - [[2024-10-09-Glossary note]]
+    - [[2024-10-09-README-Glossary note]]
 - Archive (option)
 - Relevant notes (option)
 - Relevant query (option)
 
 ## History
 
-- {{date: YYYY.MM.DD}}, created by [xiaoka](https://www.xiaokaup.com/): first version
+- {{date: YYYY.MM.DD}} {{time}}, created by [xiaoka](https://www.xiaokaup.com/): first version
 - Template: [[2024-09-02-模板-Daily-notes]]
 - Reference: [[What is the general format for citing articles?]]

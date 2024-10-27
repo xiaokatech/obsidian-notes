@@ -1,3 +1,5 @@
+#README 
+
 I want to contribute the open-source note repository: https://forms.gle/TeQUktn7GB3wyg6D6
 
 # How to use this notes library?
@@ -83,4 +85,4 @@ You can save your notes on GitHub directly, try to use the command(`Cmd + p` to 
 ![[2024-10-11-img-5-how-to-use-this-notes-repo?-commit-and-sync-with-Git.png]]
 ![2024-10-11-img-5-how to use this notes repo?-commit-and-sync-with-Git.png](./4.1%20附件/2024-10-11-img-5-how-to-use-this-notes-repo%3F-commit-and-sync-with-Git.png)
 
-Please read [[2024-10-09-Note management-How to manage work notes ?]] [link (please use Obsidian to view this link)](./2024-10-09-Note%20management-How%20to%20manage%20work%20notes%20%3F.md) first before write your first note.
+Please read [[2024-10-09-README-Note management-How to manage work notes ?]] [link (please use Obsidian to view this link)](./2024-10-09-Note%20management-How%20to%20manage%20work%20notes%20%3F.md) first before write your first note.
