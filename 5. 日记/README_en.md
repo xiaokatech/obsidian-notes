@@ -1,6 +1,6 @@
 #README 
 
-- Index file: [[分类-日记]]
+- Index file: [[索引-日记]]
 
 > [!NOTE] Rename Folder
 > Please rename this folder if needed.
