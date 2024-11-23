@@ -13,12 +13,14 @@ cssclasses:
 
 ## Journal
 
-### Work 💩💩💩(last day)💩💩💩
+### Work
 
 - Done
 - Doing
 - Doc
-- Next
+
+Next:
+task_next
 
 ### Backlog
 
