@@ -7,6 +7,6 @@
 > Please rename this folder if needed.
 > Suggested name: 2. template
 
-![[2024-10-09-README-Note management-How to manage work notes ?#Template]]
+![[2024-10-09-README-Note management-How to manage work notes#Template]]
 
 ![[2024-10-09-README-Glossary note#Glossary]]

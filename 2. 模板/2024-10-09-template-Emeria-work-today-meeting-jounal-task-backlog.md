@@ -40,4 +40,4 @@ task_next
 
 - {{date: YYYY.MM.DD}} {{time}}, created by [xiaoka](https://www.xiaokaup.com/): first version
 - Template: [[2024-10-09-template-Emeria-work-today-meeting-jounal-task-backlog]]
-- Reference: [[What is the general format for citing articles?]]
+- Reference: [[What is the general format for citing articles]]

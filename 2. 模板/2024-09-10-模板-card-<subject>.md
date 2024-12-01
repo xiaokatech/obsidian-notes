@@ -27,4 +27,4 @@
 
 - {{date: YYYY.MM.DD}} {{time}}, created by [xiaoka](https://www.xiaokaup.com/): first version
 - Template: [[2024-09-10-模板-card-<subject>]]
-- Reference: [[What is the general format for citing articles?]]
+- Reference: [[What is the general format for citing articles]]

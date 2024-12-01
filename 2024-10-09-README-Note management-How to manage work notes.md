@@ -107,7 +107,7 @@ Another advantage is that colleagues can provide clear feedback directly based o
 
 - Link (option)
 - Relevant notes (option)
-    - [[2024-10-09-README-笔记管理-如何管理工作笔记？]]
+    - [[2024-10-09-README-笔记管理-如何管理工作笔记]]
 - Glossary (option): [[2024-10-09-README-Glossary note]]
 - Relevant query (option)
 
@@ -115,4 +115,4 @@ Another advantage is that colleagues can provide clear feedback directly based o
 
 - 2024.10.09, created by [xiaoka](https://www.xiaokaup.com/): first version
 - Template: [[2024-09-02-template-Obsidian-action-add History]]
-- Reference: [[What is the general format for citing articles?]]
+- Reference: [[What is the general format for citing articles]]
