@@ -1,5 +1,9 @@
 #README
 
+This is an open-source Obsidian vault from a professional who has been taking notes for over 8 years. It has greatly helped me in both work and life, and I hope it can help you too.
+
+obsidian-notes: https://github.com/xiaokatech/obsidian-notes
+
 I want to contribute the open-source note repository: https://forms.gle/TeQUktn7GB3wyg6D6
 
 # How to use this notes library?

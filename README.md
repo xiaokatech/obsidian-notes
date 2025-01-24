@@ -1,5 +1,9 @@
 #README
 
+这是一个开源的 obsidian 笔记库，作者是记录笔记超过 8 年的工作者，它很好的帮助我工作和生活，希望也能够帮助到你。
+
+obsidian-notes: https://github.com/xiaokatech/obsidian-notes
+
 我想为开源笔记仓库做出贡献: https://wj.qq.com/s2/15685054/9a73/
 
 # 如何使用该笔记库？
