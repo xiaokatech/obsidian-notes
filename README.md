@@ -2,9 +2,8 @@
 
 这是一个开源的 obsidian 笔记库，作者是软件工程师，同时也是记录笔记超过 8 年的工作者。这个笔记库的架构帮助帮助我很好的应付工作和生活中的问题和挑战，希望帮助到需要整理大量信息的你。
 
-obsidian-notes: https://github.com/xiaokatech/obsidian-notes
-
-我想为开源笔记仓库做出贡献: https://wj.qq.com/s2/15685054/9a73/
+- obsidian-notes: https://github.com/xiaokatech/obsidian-notes
+- 我想为开源笔记仓库做出贡献: https://wj.qq.com/s2/15685054/9a73/
 
 # 如何使用该笔记库？
 

@@ -2,9 +2,8 @@
 
 This is an open-source Obsidian vault created by a software engineer who has been taking notes for over 8 years. The architecture of this vault helps me effectively handle problems and challenges in work and life, and I hope it can help those who need to organize large amounts of information.
 
-obsidian-notes: https://github.com/xiaokatech/obsidian-notes
-
-I want to contribute the open-source note repository: https://forms.gle/TeQUktn7GB3wyg6D6
+- obsidian-notes: https://github.com/xiaokatech/obsidian-notes
+- I want to contribute the open-source note repository: https://forms.gle/TeQUktn7GB3wyg6D6
 
 # How to use this notes library?
 
