@@ -1,6 +1,6 @@
 #README
 
-This is an open-source Obsidian vault from a professional who has been taking notes for over 8 years. It has greatly helped me in both work and life, and I hope it can help you too.
+This is an open-source Obsidian vault created by a software engineer who has been taking notes for over 8 years. The architecture of this vault helps me effectively handle problems and challenges in work and life, and I hope it can help those who need to organize large amounts of information.
 
 obsidian-notes: https://github.com/xiaokatech/obsidian-notes
 
