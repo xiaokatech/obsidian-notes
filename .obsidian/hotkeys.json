@@ -70,5 +70,14 @@
       "key": "ArrowDown"
     }
   ],
-  "editor:delete-paragraph": []
+  "editor:delete-paragraph": [],
+  "obsidian-plugin-prettier:format-note": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "S"
+    }
+  ],
+  "editor:toggle-checklist-status": []
 }
