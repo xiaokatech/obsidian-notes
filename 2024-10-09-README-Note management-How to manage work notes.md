@@ -63,7 +63,7 @@ Templates correspond to the types of note content mentioned earlier, and there a
 
 ### Card notes
 
-[[2024-09-10-模板-card-<subject>]]
+[[2024-09-10-模板-card-subject]]
 
 > [!NOTE] Open source note library sharing
 > These templates and shortcut settings have been open-sourced in my GitHub repository. If you want to use them directly, you can learn more through this link: https://github.com/xiaokatech/obsidian-notes

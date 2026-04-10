@@ -154,5 +154,5 @@ In practice, you might use both data sources and variables in your Terraform con
 
 ## Resource
 
-- Template: [[2024-09-10-模板-card-<subject>]]
+- Template: [[2024-09-10-模板-card-subject]]
 - Reference: [[What is the general format for citing articles]]
