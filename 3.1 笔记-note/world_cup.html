@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2026 世界杯 — 观赛指南</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: linear-gradient(135deg, #0b1a2e 0%, #1a3a5c 100%);
+      color: #e8edf3;
+      min-height: 100vh;
+      line-height: 1.6;
+    }
+
+    /* Hero */
+    .hero {
+      background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.4)),
+                  url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400"><rect fill="%231b4a2a" width="1200" height="400"/><circle cx="600" cy="200" r="80" fill="none" stroke="%23f5c842" stroke-width="4"/><path d="M540 200 Q570 160 600 200 Q630 240 660 200" fill="none" stroke="%23f5c842" stroke-width="3"/></svg>');
+      background-size: cover;
+      background-position: center;
+      height: 60vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      position: relative;
+    }
+
+    .hero::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 120px;
+      background: linear-gradient(transparent, #0b1a2e);
+    }
+
+    .hero h1 {
+      font-size: clamp(2.4rem, 8vw, 5rem);
+      font-weight: 800;
+      letter-spacing: 4px;
+      text-shadow: 0 4px 20px rgba(0,0,0,0.5);
+      z-index: 1;
+    }
+
+    .hero h1 span {
+      color: #f5c842;
+    }
+
+    .hero p {
+      font-size: clamp(1rem, 2.5vw, 1.5rem);
+      opacity: 0.85;
+      margin-top: 12px;
+      z-index: 1;
+    }
+
+    .hero .subtitle {
+      display: flex;
+      gap: 24px;
+      margin-top: 20px;
+      z-index: 1;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .hero .subtitle span {
+      background: rgba(255,255,255,0.12);
+      backdrop-filter: blur(4px);
+      padding: 6px 18px;
+      border-radius: 20px;
+      font-size: 0.9rem;
+      border: 1px solid rgba(255,255,255,0.15);
+    }
+
+    /* Container */
+    .container {
+      max-width: 1100px;
+      margin: -60px auto 0;
+      padding: 0 24px 60px;
+      position: relative;
+      z-index: 2;
+    }
+
+    /* Cards */
+    .section-title {
+      font-size: 1.6rem;
+      font-weight: 700;
+      margin: 48px 0 20px;
+      padding-bottom: 10px;
+      border-bottom: 2px solid rgba(245,200,66,0.3);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .section-title .icon { font-size: 1.4rem; }
+
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: rgba(255,255,255,0.06);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 16px;
+      padding: 24px;
+      transition: transform 0.25s, border-color 0.25s, box-shadow 0.25s;
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
+      border-color: rgba(245,200,66,0.4);
+      box-shadow: 0 12px 32px rgba(0,0,0,0.3);
+      background: rgba(255,255,255,0.09);
+    }
+
+    .card h3 {
+      font-size: 1.2rem;
+      margin-bottom: 8px;
+      color: #f5c842;
+    }
+
+    .card p, .card li {
+      font-size: 0.92rem;
+      opacity: 0.85;
+      line-height: 1.7;
+    }
+
+    .card ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .card ul li::before {
+      content: '⚽ ';
+      font-size: 0.85rem;
+    }
+
+    .card ul li {
+      padding: 3px 0;
+    }
+
+    /* Timeline */
+    .timeline {
+      position: relative;
+      padding-left: 32px;
+      margin: 24px 0;
+    }
+
+    .timeline::before {
+      content: '';
+      position: absolute;
+      left: 12px;
+      top: 0;
+      bottom: 0;
+      width: 2px;
+      background: linear-gradient(#f5c842, #1a5c3a);
+    }
+
+    .timeline-item {
+      position: relative;
+      margin-bottom: 28px;
+    }
+
+    .timeline-item::before {
+      content: '';
+      position: absolute;
+      left: -24px;
+      top: 6px;
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background: #f5c842;
+      border: 2px solid #0b1a2e;
+    }
+
+    .timeline-item .date {
+      font-size: 0.82rem;
+      color: #f5c842;
+      font-weight: 600;
+    }
+
+    .timeline-item h4 {
+      margin: 2px 0 4px;
+      font-size: 1.05rem;
+    }
+
+    .timeline-item p {
+      opacity: 0.75;
+      font-size: 0.9rem;
+    }
+
+    /* Table */
+    .table-wrap {
+      overflow-x: auto;
+      margin: 20px 0;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.9rem;
+    }
+
+    th {
+      background: rgba(245,200,66,0.15);
+      color: #f5c842;
+      padding: 12px 16px;
+      text-align: left;
+      font-weight: 600;
+      border-bottom: 2px solid rgba(245,200,66,0.3);
+    }
+
+    td {
+      padding: 10px 16px;
+      border-bottom: 1px solid rgba(255,255,255,0.06);
+    }
+
+    tr:hover td {
+      background: rgba(255,255,255,0.04);
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 40px 24px;
+      opacity: 0.5;
+      font-size: 0.82rem;
+      border-top: 1px solid rgba(255,255,255,0.06);
+      margin-top: 40px;
+    }
+
+    /* Responsive */
+    @media (max-width: 640px) {
+      .hero { height: 45vh; }
+      .container { padding: 0 16px 40px; }
+      .card-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ====== Hero ====== -->
+<header class="hero">
+  <h1>2026 <span>世界杯</span></h1>
+  <p>加拿大 · 墨西哥 · 美国 ｜ 48 支球队 · 104 场比赛</p>
+  <div class="subtitle">
+    <span>📅 2026.6.11 – 7.19</span>
+    <span>🌍 第 23 届</span>
+    <span>🏆 首次三国联办</span>
+  </div>
+</header>
+
+<div class="container">
+
+  <!-- ====== 概述 ====== -->
+  <h2 class="section-title"><span class="icon">🏟️</span> 赛事概览</h2>
+  <div class="card-grid">
+    <div class="card">
+      <h3>📐 新赛制</h3>
+      <p>首次扩军至 48 支球队。小组赛阶段分为 16 个小组，每组 3 队，前两名晋级 32 强淘汰赛。总比赛场次从 64 场增至 104 场。</p>
+    </div>
+    <div class="card">
+      <h3>🌎 主办国</h3>
+      <p>由加拿大、墨西哥、美国三国联合举办，是世界杯历史上首次由三个国家共同主办。决赛将在美国纽约/新泽西的大都会球场举行。</p>
+    </div>
+    <div class="card">
+      <h3>🏅 卫冕冠军</h3>
+      <p>阿根廷（2022 年卡塔尔世界杯冠军）。梅西是否参赛仍未确定，但斯卡洛尼将继续执教。</p>
+    </div>
+  </div>
+
+  <!-- ====== 赛程时间线 ====== -->
+  <h2 class="section-title"><span class="icon">📆</span> 关键时间线</h2>
+  <div class="timeline">
+    <div class="timeline-item">
+      <span class="date">2025 年初</span>
+      <h4>预选赛抽签</h4>
+      <p>各大洲预选赛持续推进，南美区、欧洲区、亚洲区、非洲区、中北美及大洋洲分别决出晋级名额。</p>
+    </div>
+    <div class="timeline-item">
+      <span class="date">2025 年底</span>
+      <h4>决赛圈抽签</h4>
+      <p>48 支晋级球队分组抽签，确定小组对阵。</p>
+    </div>
+    <div class="timeline-item">
+      <span class="date">2026.6.11</span>
+      <h4>揭幕战</h4>
+      <p>墨西哥城 · 阿兹特克体育场 —— 这座曾见证 1970 和 1986 年世界杯决赛的传奇球场将第三次迎来世界杯揭幕。</p>
+    </div>
+    <div class="timeline-item">
+      <span class="date">2026.6.11 – 7.3</span>
+      <h4>小组赛 + 1/16 决赛</h4>
+      <p>48 进 32 小组赛，随后进行 1/16 决赛（新增轮次）。</p>
+    </div>
+    <div class="timeline-item">
+      <span class="date">2026.7.4 – 7.15</span>
+      <h4>淘汰赛</h4>
+      <p>1/8 决赛、1/4 决赛、半决赛，分别在三国多个城市举行。</p>
+    </div>
+    <div class="timeline-item">
+      <span class="date">2026.7.19</span>
+      <h4>决赛</h4>
+      <p>纽约 / 新泽西 · 大都会球场（MetLife Stadium）</p>
+    </div>
+  </div>
+
+  <!-- ====== 主办城市 ====== -->
+  <h2 class="section-title"><span class="icon">📍</span> 主办城市一览</h2>
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th>国家</th>
+          <th>城市</th>
+          <th>球场</th>
+          <th>容量</th>
+          <th>重要场次</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>🇨🇦 加拿大</td>
+          <td>温哥华</td>
+          <td>BC Place</td>
+          <td>54,500</td>
+          <td>小组赛</td>
+        </tr>
+        <tr>
+          <td>🇨🇦 加拿大</td>
+          <td>多伦多</td>
+          <td>BMO Field</td>
+          <td>30,000</td>
+          <td>小组赛</td>
+        </tr>
+        <tr>
+          <td>🇲🇽 墨西哥</td>
+          <td>墨西哥城</td>
+          <td>阿兹特克体育场</td>
+          <td>87,523</td>
+          <td>揭幕战</td>
+        </tr>
+        <tr>
+          <td>🇲🇽 墨西哥</td>
+          <td>蒙特雷</td>
+          <td>BBVA 体育场</td>
+          <td>53,500</td>
+          <td>小组赛</td>
+        </tr>
+        <tr>
+          <td>🇲🇽 墨西哥</td>
+          <td>瓜达拉哈拉</td>
+          <td>阿克隆体育场</td>
+          <td>49,850</td>
+          <td>小组赛</td>
+        </tr>
+        <tr>
+          <td>🇺🇸 美国</td>
+          <td>纽约/新泽西</td>
+          <td>大都会球场</td>
+          <td>82,500</td>
+          <td>🏆 决赛</td>
+        </tr>
+        <tr>
+          <td>🇺🇸 美国</td>
+          <td>洛杉矶</td>
+          <td>SoFi 体育场</td>
+          <td>70,000</td>
+          <td>半决赛</td>
+        </tr>
+        <tr>
+          <td>🇺🇸 美国</td>
+          <td>达拉斯</td>
+          <td>AT&T 体育场</td>
+          <td>80,000</td>
+          <td>半决赛</td>
+        </tr>
+        <tr>
+          <td>🇺🇸 美国</td>
+          <td>迈阿密</td>
+          <td>硬石体育场</td>
+          <td>64,767</td>
+          <td>1/4 决赛</td>
+        </tr>
+        <tr>
+          <td>🇺🇸 美国</td>
+          <td>亚特兰大</td>
+          <td>梅赛德斯-奔驰体育场</td>
+          <td>71,000</td>
+          <td>1/4 决赛</td>
+        </tr>
+        <tr>
+          <td>🇺🇸 美国</td>
+          <td>西雅图</td>
+          <td>流明球场</td>
+          <td>69,000</td>
+          <td>小组赛</td>
+        </tr>
+        <tr>
+          <td>🇺🇸 美国</td>
+          <td>旧金山湾区</td>
+          <td>李维斯体育场</td>
+          <td>68,500</td>
+          <td>小组赛</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- ====== 看点 ====== -->
+  <h2 class="section-title"><span class="icon">🔥</span> 本届看点</h2>
+  <div class="card-grid">
+    <div class="card">
+      <h3>🇦🇷 阿根廷卫冕之路</h3>
+      <p>梅西已 38 岁，能否保持状态仍是悬念。阿根廷在 2022 年后涌现了恩佐·费尔南德斯、阿尔瓦雷斯等新生代，球队整体框架稳固。</p>
+    </div>
+    <div class="card">
+      <h3>🇫🇷 法国卷土重来</h3>
+      <p>姆巴佩正值巅峰（27 岁），楚阿梅尼、卡马文加等年轻一代已经成熟。法国在 2022 年闯入决赛，时隔四年有望再进一步。</p>
+    </div>
+    <div class="card">
+      <h3>🇧🇷 巴西第六星</h3>
+      <p>巴西自 2002 年后未再夺冠。维尼修斯、罗德里戈、恩德里克领衔的新一代攻击线让人期待，但防守端的稳定性仍是问号。</p>
+    </div>
+    <div class="card">
+      <h3>🇨🇦 东道主首秀</h3>
+      <p>加拿大自 1986 年后第二次晋级世界杯、首次以东道主身份参赛。阿方索·戴维斯和乔纳森·戴维是球队核心。</p>
+    </div>
+    <div class="card">
+      <h3>🇺🇸 主场优势</h3>
+      <p>美国在 2022 年打入 16 强，主场作战的他们将是一支不可忽视的力量。普利西奇、雷纳、麦肯尼等球员正值当打之年。</p>
+    </div>
+    <div class="card">
+      <h3>🆕 新军登场</h3>
+      <p>48 队赛制下，将有更多"新面孔"出现在世界杯舞台。哪些黑马能让人眼前一亮？</p>
+    </div>
+  </div>
+
+  <!-- ====== 历史之最 ====== -->
+  <h2 class="section-title"><span class="icon">📊</span> 世界杯历史之最</h2>
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th>纪录</th>
+          <th>保持者</th>
+          <th>数据</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>🏆 最多冠军</td><td>🇧🇷 巴西</td><td>5 次（1958/1962/1970/1994/2002）</td></tr>
+        <tr><td>⚽ 历史最佳射手</td><td>🇩🇪 米罗斯拉夫·克洛泽</td><td>16 球（2002–2014）</td></tr>
+        <tr><td>🎯 单届最佳射手</td><td>🇫🇷 朱斯特·方丹</td><td>13 球（1958）</td></tr>
+        <tr><td>📅 最多出场</td><td>🇦🇷 莱昂内尔·梅西</td><td>26 场（2006–2022）</td></tr>
+        <tr><td>🏅 最多决赛参与</td><td>🇩🇪 洛塔尔·马特乌斯</td><td>5 届（1982–1998）</td></tr>
+        <tr><td>🌍 最多参赛届数</td><td>🇲🇽 安东尼奥·卡瓦哈尔</td><td>5 届（1950–1966）</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- ====== 经典语录 ====== -->
+  <h2 class="section-title"><span class="icon">💬</span> 世界杯经典语录</h2>
+  <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px;">
+    <div class="card" style="font-style: italic;">
+      <p style="opacity: 0.9;">"足球是一项简单的运动：22 个人追逐一个球 90 分钟，到最后德国人总是赢。"</p>
+      <p style="opacity: 0.5; margin-top: 8px; font-style: normal;">—— 加里·莱因克尔</p>
+    </div>
+    <div class="card" style="font-style: italic;">
+      <p style="opacity: 0.9;">"有些人相信足球关乎生死。我对此很失望。我可以向你保证，它远不止于此。"</p>
+      <p style="opacity: 0.5; margin-top: 8px; font-style: normal;">—— 比尔·香克利</p>
+    </div>
+    <div class="card" style="font-style: italic;">
+      <p style="opacity: 0.9;">"世界杯之所以伟大，是因为它不仅仅关乎足球。它关乎国家、尊严、历史和整个大洲的希望。"</p>
+      <p style="opacity: 0.5; margin-top: 8px; font-style: normal;">—— 佚名</p>
+    </div>
+  </div>
+
+</div>
+
+<footer>
+  Generated by GPT AI Flow on 2025-05-26 · 仅供学习参考<br>
+  数据基于公开资料整理，实际赛程以官方发布为准
+</footer>
+
+</body>
+</html>
